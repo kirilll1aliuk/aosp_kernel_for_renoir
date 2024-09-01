@@ -36,7 +36,7 @@ jobs:
       - name: Build kernel
         run: |
           git config --global user.email "you@example.com"
-          git config --global user.name "zeroXone-github"
+          git config --global user.name "kirilll1aliuk-github"
           git submodule add https://github.com/rsuntk/KernelSU.git
           git add .
           git commit -m "Blump up KSU for NonGKI kernel"
